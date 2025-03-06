@@ -1,0 +1,15 @@
+[project]
+name = "cv"
+version = "0.1.0"
+description = "Implementation of computer vision codes"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "opencv-python>=4.11.0.86",
+    "pillow>=11.1.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
