@@ -2,7 +2,7 @@
 import cv2
 import numpy as np
 
-image = cv2.imread("basics/greyscaling/earth.jpg") # loading the image 
+image = cv2.imread("self-study/basics/greyscaling/earth.jpg") # loading the image 
 rgb_image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB) # by default cv loads in BGR channel
 
 # convert to greyscale
@@ -15,4 +15,4 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 # saving the greyscale image
-cv2.imwrite("basics/greyscaling/greyscaled_image.jpg",greyscaled_image)
+cv2.imwrite("self-study/basics/greyscaling/greyscaled_image.jpg",greyscaled_image)

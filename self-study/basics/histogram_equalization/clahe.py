@@ -1,7 +1,7 @@
 # histogram equalization using CLAHE method
 import cv2
 
-image = cv2.imread("basics/histogram_equalization/horse.jpg")
+image = cv2.imread("self-study/basics/histogram_equalization/horse.jpg")
 grey_image = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 clahe = cv2.createCLAHE()
 
@@ -13,4 +13,4 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 # save the image
-cv2.imwrite("basics/histogram_equalization/clahe_image.jpg",equalized)
+cv2.imwrite("self-study/basics/histogram_equalization/clahe_image.jpg",equalized)
